@@ -1,0 +1,58 @@
+Why Functional Programming?
+
+    1. Creates Immutable objects - avoids mutable objects
+    2. More Readable code
+    3. Pass around functions like variables
+    4. Declarative way of Programming.
+
+___________________________________________________________________________________________
+
+Imperative vs Declarative way of programming:
+
+Examples:
+    1. Sum of first 100 numbers
+    2. Removing duplicates from list of integers
+
+___________________________________________________________________________________________
+
+Lambdas
+
+Lambdas is a function / method without a name.
+Lambdas can be assigned to a variable and passed around.
+They are not tied to any class like a regular method.
+
+For Single line statements, no need for curley braces and vice versa.
+
+
+Syntax:
+    ( )         ->          { }
+    Lambda      Arrow       Lambda Body
+    Input
+    Parameters
+
+
+
+input parameters provides data and it's processing / logic is written inside the curley braces.
+
+Uses:
+
+    1. Implement functional interface (SAM - single abstract method)
+    It is @Annotated with @FunctionalInterface
+
+    Functional Interfaces before Java8 was Runnable and Comparator.
+
+___________________________________________________________________________________________
+
+Overriding Comparator method
+
+1. Comparator<Integer> gives us compareTo method
+2. Compare o1 with o2 using compareTo -> return o1.compareTo(o2);
+
+    It will return the following:
+        1   ->    o1 > o2
+        -1  ->    o1 < o2
+        0   ->    o1 == o2
+
+
+___________________________________________________________________________________________
+
